@@ -1,8 +1,8 @@
 I was asked to create proects to reproduce these issues:
-https://github.com/flutter/flutter/issues/26654
-https://github.com/flutter/flutter/issues/26660
+https://github.com/flutter/flutter/issues/26654 - Image issue, confirmed on iOS and Android physical devices
+https://github.com/flutter/flutter/issues/26660 - Crash issue, confiremd on iOS physical device and simultor.
 
-These issues happen 100% of the time Oon a physical device.  
+These issues happen 100% of the time on a physical device.  
 
 
 ## To reproduce image issue
@@ -16,4 +16,4 @@ These issues happen 100% of the time Oon a physical device.
 1. launch the app like you would any flutter app
 2. Tap an image, a view controller will appear over it
 3. tap anywhere on the view controller to dismiss it
-4 crash
+4 crashs
