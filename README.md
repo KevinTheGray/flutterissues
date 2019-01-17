@@ -1,16 +1,19 @@
-# black_images
+I was asked to create proects to reproduce these issues:
+https://github.com/flutter/flutter/issues/26654
+https://github.com/flutter/flutter/issues/26660
 
-A new Flutter project.
+These issues happen 100% of the time Oon a physical device.  
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+## To reproduce image issue
 
-A few resources to get you started if this is your first Flutter project:
+1. launch the app like you would any flutter app
+2. background the app
+3. come back to the app
+4. images will be black or invisible... or maybe even something else, I've seen it look like it's reusing the "Debug" banner
 
-- [Lab: Write your first Flutter app](https://flutter.io/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.io/docs/cookbook)
-
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.io/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+## To reproduce crash issue
+1. launch the app like you would any flutter app
+2. Tap an image, a view controller will appear over it
+3. tap anywhere on the view controller to dismiss it
+4 crash
