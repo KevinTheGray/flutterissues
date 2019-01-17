@@ -16,4 +16,4 @@ These issues happen 100% of the time on a physical device.
 1. launch the app like you would any flutter app
 2. Tap an image, a view controller will appear over it
 3. tap anywhere on the view controller to dismiss it
-4 crashss
+4. crash
